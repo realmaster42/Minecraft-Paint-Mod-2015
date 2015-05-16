@@ -1,0 +1,20 @@
+package com.mp_Poder.blocks;
+
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.material.Material;
+
+public class PaintBlockSlab extends BlockSlab{
+    
+	int color;
+	boolean isdouble;
+	
+	public PaintBlockSlab(int id, boolean full, Material materialIn) {
+		super(materialIn);
+		isdouble = full;
+		color = id;
+	}
+	
+	public String getFullSlabName(int id){
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.mp_Poder.blocks;
+
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.material.Material;
+
+public class SpecialBlockHandler {
+    public static void initializeBlock(){
+    	SlabBlocks.Setup();
+    	StairBlocks.Setup();
+    }
+}

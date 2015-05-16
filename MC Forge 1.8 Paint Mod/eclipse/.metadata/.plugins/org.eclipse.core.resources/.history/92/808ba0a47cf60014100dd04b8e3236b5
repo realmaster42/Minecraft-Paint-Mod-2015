@@ -1,0 +1,17 @@
+package com.mp_Poder.blocks;
+
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.material.Material;
+
+public class SpecialBlockHandler {
+	//Wood Stair
+    public static BlockStairs RedWoodStair;
+		
+    //Wood Slab
+    public static BlockSlab RedWoodSlab;
+		
+	
+	RedWoodStair = new ModStairBlock(RedWoodStair.getDefaultState()).setUnlocalizedName("RedWoodStair");
+	RedWoodSlab = new ModSlabBrick(Material.wood).setUnlocalizedName("RedWoodSlab");
+}

@@ -1,0 +1,24 @@
+package com.mp_Poder.blocks;
+
+import com.mp_Poder.paintmod.MainRegistry;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.util.BlockPos;
+
+public class ModStairBlock extends BlockStairs{
+	
+	public ModStairBlock(IBlockState state) {
+		super(state);
+		this.setCreativeTab(MainRegistry.tabBrush);
+		if(state == Blocks.acacia_stairs.getDefaultState())
+		{
+			this.setHardness(2F); 
+		}
+	}
+   
+}

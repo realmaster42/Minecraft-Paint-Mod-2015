@@ -1,0 +1,13 @@
+package com.mp_Poder.blocks;
+
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.BlockStairs;
+
+public class StairBlocks {
+	//Wood Stair
+    public static BlockStairs RedWoodStair;
+    
+    public static void Setup(){
+    	RedWoodStair = new ModStairBlock(RedWoodStair.getDefaultState());
+    }
+}
