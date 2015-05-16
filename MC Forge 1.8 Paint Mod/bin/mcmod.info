@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pmod2015",
+  "name": "§e§lPaint Mod 2015",
+  "description": "§4§lPaint §2§leverything §f§lyou want!",
+  "version": "§6§l${version}",
+  "mcversion": "§2§l1.8",
+  "url": "§8§lhttp://www.planetminecraft.com/mod/paint-mod-2015/",
+  "updateUrl": "https://dl.dropbox.com/s/hlcjdtm03r27x5t/version.txt",
+  "authorList": ["§e§lmp_Poder"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
