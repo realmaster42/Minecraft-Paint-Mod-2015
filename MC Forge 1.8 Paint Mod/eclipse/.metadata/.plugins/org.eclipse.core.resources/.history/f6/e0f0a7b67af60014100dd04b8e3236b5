@@ -1,0 +1,41 @@
+package com.mp_Poder.blocks;
+
+import com.mp_Poder.paintmod.MainRegistry;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockPos;
+
+public class ModSlabBrick extends BlockSlab{
+	
+	public ModSlabBrick(Material material) {
+		super(material);
+		this.setCreativeTab(MainRegistry.tabBrush);
+		if(material == Material.wood)
+		{
+			this.setHardness(2F); 
+		}
+	}
+
+	@Override
+	public String getUnlocalizedName(int meta) {
+		String www;
+		if (meta==0)
+		{
+			www="RedWoodSlab";
+		}
+		else
+		{
+			www="RedWoodSlab";
+		}
+		
+		return "RedWoodSlab";
+	}
+}

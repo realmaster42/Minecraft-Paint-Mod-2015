@@ -1,0 +1,44 @@
+[15:04:30] [Client thread/INFO]: Setting user: Player145
+[15:04:40] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:04:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Paint Mod
+[15:04:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:04:51] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[15:04:51] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:04:52] [Thread-7/INFO]: OpenAL initialized.
+[15:04:52] [Sound Library Loader/INFO]: Sound engine started
+[15:05:09] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:05:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Paint Mod
+[15:05:12] [Client thread/INFO]: SoundSystem shutting down...
+[15:05:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:05:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:05:12] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[15:05:12] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:05:13] [Thread-9/INFO]: OpenAL initialized.
+[15:05:13] [Sound Library Loader/INFO]: Sound engine started
+[15:05:16] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:05:26] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[15:05:26] [Server thread/INFO]: Generating keypair
+[15:05:28] [Server thread/INFO]: Preparing start region for level 0
+[15:05:29] [Server thread/INFO]: Preparing spawn area: 11%
+[15:05:30] [Server thread/INFO]: Preparing spawn area: 48%
+[15:05:31] [Server thread/INFO]: Changing view distance to 2, from 10
+[15:05:32] [Server thread/INFO]: Player145[local:E:df76bfe7] logged in with entity id 144 at (-23.1876052443485, 67.0, 255.7311134305017)
+[15:05:32] [Server thread/INFO]: Player145 joined the game
+[15:05:37] [Server thread/INFO]: Player145 has just earned the achievement [Taking Inventory]
+[15:05:37] [Client thread/INFO]: [CHAT] Player145 has just earned the achievement [Taking Inventory]
+[15:07:20] [Server thread/INFO]: Saving and pausing game...
+[15:07:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:07:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:07:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:07:20] [Server thread/INFO]: Stopping server
+[15:07:20] [Server thread/INFO]: Saving players
+[15:07:20] [Server thread/INFO]: Saving worlds
+[15:07:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:07:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:07:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:07:22] [Client thread/INFO]: Stopping!
+[15:07:22] [Client thread/INFO]: SoundSystem shutting down...
+[15:07:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[07:28:57] [Client thread/INFO]: Setting user: Player654
+[07:28:57] [Client thread/INFO]: Setting user: Player664
+[07:29:09] [Client thread/INFO]: LWJGL Version: 2.9.1

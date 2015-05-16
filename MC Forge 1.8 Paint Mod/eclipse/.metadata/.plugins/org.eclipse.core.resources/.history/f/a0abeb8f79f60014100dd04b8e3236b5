@@ -1,0 +1,22 @@
+package com.mp_Poder.blocks;
+
+import com.mp_Poder.paintmod.MainRegistry;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.util.BlockPos;
+
+public class ModStairBlock extends Block{
+	
+	public ModStairBlock(Material materialIn) {
+		super(materialIn);
+		this.setCreativeTab(MainRegistry.tabBrush);
+		if(materialIn == Material.wood)
+		{
+			this.setHardness(2F); 
+		}
+	}
+   
+}
