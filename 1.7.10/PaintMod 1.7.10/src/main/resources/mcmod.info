@@ -1,14 +1,14 @@
 [
 {
   "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "name": "§e§lPaint Mod 1.7.10 2015",
+  "description": "§4§lPaint §2§leverything §f§lyou want!",
+  "version": "§6§l${version}",
+  "mcversion": "§2§l1.7.1.0",
+  "url": "§8§lhttp://www.planetminecraft.com/mod/paint-mod-2015/",
+  "updateUrl": "https://dl.dropbox.com/s/hlcjdtm03r27x5t/version.txt",
+  "authorList": ["§e§lmp_Poder"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
