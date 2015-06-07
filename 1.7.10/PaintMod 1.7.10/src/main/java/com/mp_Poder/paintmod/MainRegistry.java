@@ -46,7 +46,7 @@ public class MainRegistry {
 	public static final TabC tabBrush = new TabC("tabC");
 	public static boolean HackerMode;
 	
-	@cpw.mods.fml.common.Mod.EventHandler
+	@EventHandler
 	public static void PreLoad(FMLPreInitializationEvent PreEvent){
 		FMLCommonHandler.instance().bus().register(PreEvent);
     	MinecraftForge.EVENT_BUS.register(PreEvent);
@@ -60,7 +60,7 @@ public class MainRegistry {
     	HBoolean.comment = "In adventure/survival modes, have infinite paint.";
     	HackerMode = config.get(Configuration.CATEGORY_GENERAL, "HackerMode", false).getBoolean(false);
     	
-    	proxy.registerRenders();
+    	//proxy.registerRenders();
     	BlockRegistry.initializeBlock();
     	BlockRegistry.register();
 		Brush.initializeItem();
@@ -80,17 +80,7 @@ public class MainRegistry {
 	}
 	@EventHandler
 	public static void Load(FMLInitializationEvent event){
-		/*if(event.getSide() == Side.CLIENT)
-	    {
-			RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
-	   
-			//blocks
-			renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockRegistry.RedWood), 0, new ModelResourceLocation(RefStrings.MODID + ":RedWood", "inventory"));
-				
-			//items
-	        renderItem.getItemModelMesher().register(Brush.PaintBrush, 0, new ModelResourceLocation(RefStrings.MODID + ":PaintBrush", "inventory"));
-	        renderItem.getItemModelMesher().register(Brush.RedPaintBrush, 0, new ModelResourceLocation(RefStrings.MODID + ":RedPaintBrush", "inventory"));
-	    }*/
+		
 	}
 	@EventHandler
 	public static void PostLoad(FMLPostInitializationEvent PostEvent){

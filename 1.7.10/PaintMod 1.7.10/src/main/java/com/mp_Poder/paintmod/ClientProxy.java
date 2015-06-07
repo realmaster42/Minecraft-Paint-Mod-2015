@@ -6,7 +6,7 @@ import com.mp_Poder.item.Brush;
 public class ClientProxy extends ServerProxy{
 	@Override
     public void registerRenders(){
-		BlockRegistry.registerRenders();
-		Brush.registerRenders();
+		//BlockRegistry.registerRenders();
+		//Brush.registerRenders();
 	}
 }

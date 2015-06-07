@@ -32,26 +32,26 @@ public class Brush {
 	public static Item WhiteDust;
 	
 	public static void initializeItem(){
-		PaintBrush = new BrushItem(0).setUnlocalizedName("PaintBrush").setCreativeTab(MainRegistry.tabBrush);
+		PaintBrush = new BrushItem(0).setUnlocalizedName("PaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":PaintBrush");
 		//Colored Brush
-		RedPaintBrush = new BrushItem(1).setUnlocalizedName("RedPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		GreenPaintBrush = new BrushItem(2).setUnlocalizedName("GreenPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		YellowPaintBrush = new BrushItem(3).setUnlocalizedName("YellowPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		OrangePaintBrush = new BrushItem(4).setUnlocalizedName("OrangePaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		MagentaPaintBrush = new BrushItem(5).setUnlocalizedName("MagentaPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		VioletPaintBrush = new BrushItem(6).setUnlocalizedName("VioletPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		PurplePaintBrush = new BrushItem(7).setUnlocalizedName("PurplePaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		LightRedPaintBrush = new BrushItem(8).setUnlocalizedName("LightRedPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		CamoPaintBrush = new BrushItem(9).setUnlocalizedName("CamoPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		WhitePaintBrush = new BrushItem(10).setUnlocalizedName("WhitePaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		BlackPaintBrush = new BrushItem(11).setUnlocalizedName("BlackPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		BrownPaintBrush = new BrushItem(12).setUnlocalizedName("BrownPaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		DarkBluePaintBrush = new BrushItem(13).setUnlocalizedName("DarkBluePaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		BluePaintBrush = new BrushItem(14).setUnlocalizedName("BluePaintBrush").setCreativeTab(MainRegistry.tabBrush);
-		GrayPaintBrush = new BrushItem(15).setUnlocalizedName("GrayPaintBrush").setCreativeTab(MainRegistry.tabBrush);
+		RedPaintBrush = new BrushItem(1).setUnlocalizedName("RedPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":RedPaintBrush");
+		GreenPaintBrush = new BrushItem(2).setUnlocalizedName("GreenPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":GreenPaintBrush");
+		YellowPaintBrush = new BrushItem(3).setUnlocalizedName("YellowPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":YellowPaintBrush");
+		OrangePaintBrush = new BrushItem(4).setUnlocalizedName("OrangePaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":OrangePaintBrush");
+		MagentaPaintBrush = new BrushItem(5).setUnlocalizedName("MagentaPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":MagentaPaintBrush");
+		VioletPaintBrush = new BrushItem(6).setUnlocalizedName("VioletPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":VioletPaintBrush");
+		PurplePaintBrush = new BrushItem(7).setUnlocalizedName("PurplePaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":PurplePaintBrush");
+		LightRedPaintBrush = new BrushItem(8).setUnlocalizedName("LightRedPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":LightRedPaintBrush");
+		CamoPaintBrush = new BrushItem(9).setUnlocalizedName("CamoPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":CamoPaintBrush");
+		WhitePaintBrush = new BrushItem(10).setUnlocalizedName("WhitePaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":WhitePaintBrush");
+		BlackPaintBrush = new BrushItem(11).setUnlocalizedName("BlackPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":BlackPaintBrush");
+		BrownPaintBrush = new BrushItem(12).setUnlocalizedName("BrownPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":BrownPaintBrush");
+		DarkBluePaintBrush = new BrushItem(13).setUnlocalizedName("DarkBluePaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":DarkBluePaintBrush");
+		BluePaintBrush = new BrushItem(14).setUnlocalizedName("BluePaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":BluePaintBrush");
+		GrayPaintBrush = new BrushItem(15).setUnlocalizedName("GrayPaintBrush").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":GrayPaintBrush");
 		
-		PaintBrushString = new Item().setUnlocalizedName("PaintBrushString").setCreativeTab(MainRegistry.tabBrush);
-		WhiteDust = new Item().setUnlocalizedName("WhiteDust").setCreativeTab(MainRegistry.tabBrush);
+		PaintBrushString = new Item().setUnlocalizedName("PaintBrushString").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":PaintBrushString");
+		WhiteDust = new Item().setUnlocalizedName("WhiteDust").setCreativeTab(MainRegistry.tabBrush).setTextureName(RefStrings.MODID + ":WhiteDust");
 	}
 	
 	public static void register(){
@@ -105,7 +105,6 @@ public class Brush {
 	
 	public static void registerRender(Item item){
 		//Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(RefStrings.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
-		item.setTextureName(RefStrings.MODID + ":" + item.getUnlocalizedName());
 	}
 	
 	/*public static void registerItems(){

@@ -43,26 +43,26 @@ public class BlockRegistry {
 	public static Block[] StoneStates;
 
 	public static void initializeBlock(){
-		RedWood = new ModBlock(Material.wood).setBlockName("RedWood");
-		GreenWood = new ModBlock(Material.wood).setBlockName("GreenWood");
-		YellowWood = new ModBlock(Material.wood).setBlockName("YellowWood");
-		OrangeWood = new ModBlock(Material.wood).setBlockName("OrangeWood");
-		MagentaWood = new ModBlock(Material.wood).setBlockName("MagentaWood");
-		VioletWood = new ModBlock(Material.wood).setBlockName("VioletWood");
-		PurpleWood = new ModBlock(Material.wood).setBlockName("PurpleWood");
-		LightRedWood = new ModBlock(Material.wood).setBlockName("LightRedWood");
-		CamoWood = new ModBlock(Material.wood).setBlockName("CamoWood");
-		WhiteWood = new ModBlock(Material.wood).setBlockName("WhiteWood");
-		BlackWood = new ModBlock(Material.wood).setBlockName("BlackWood");
-		BrownWood = new ModBlock(Material.wood).setBlockName("BrownWood");
-		DarkBlueWood = new ModBlock(Material.wood).setBlockName("DarkBlueWood");
-		BlueWood = new ModBlock(Material.wood).setBlockName("BlueWood");
-		GrayWood = new ModBlock(Material.wood).setBlockName("GrayWood");
+		RedWood = new ModBlock(Material.wood).setBlockName("RedWood").setBlockTextureName(RefStrings.MODID + ":RedWood");
+		GreenWood = new ModBlock(Material.wood).setBlockName("GreenWood").setBlockTextureName(RefStrings.MODID + ":GreenWood");
+		YellowWood = new ModBlock(Material.wood).setBlockName("YellowWood").setBlockTextureName(RefStrings.MODID + ":YellowWood");
+		OrangeWood = new ModBlock(Material.wood).setBlockName("OrangeWood").setBlockTextureName(RefStrings.MODID + ":OrangeWood");
+		MagentaWood = new ModBlock(Material.wood).setBlockName("MagentaWood").setBlockTextureName(RefStrings.MODID + ":MagentaWood");
+		VioletWood = new ModBlock(Material.wood).setBlockName("VioletWood").setBlockTextureName(RefStrings.MODID + ":VioletWood");
+		PurpleWood = new ModBlock(Material.wood).setBlockName("PurpleWood").setBlockTextureName(RefStrings.MODID + ":PurpleWood");
+		LightRedWood = new ModBlock(Material.wood).setBlockName("LightRedWood").setBlockTextureName(RefStrings.MODID + ":LightRedWood");
+		CamoWood = new ModBlock(Material.wood).setBlockName("CamoWood").setBlockTextureName(RefStrings.MODID + ":CamoWood");
+		WhiteWood = new ModBlock(Material.wood).setBlockName("WhiteWood").setBlockTextureName(RefStrings.MODID + ":WhiteWood");
+		BlackWood = new ModBlock(Material.wood).setBlockName("BlackWood").setBlockTextureName(RefStrings.MODID + ":BlackWood");
+		BrownWood = new ModBlock(Material.wood).setBlockName("BrownWood").setBlockTextureName(RefStrings.MODID + ":BrownWood");
+		DarkBlueWood = new ModBlock(Material.wood).setBlockName("DarkBlueWood").setBlockTextureName(RefStrings.MODID + ":DarkBlueWood");
+		BlueWood = new ModBlock(Material.wood).setBlockName("BlueWood").setBlockTextureName(RefStrings.MODID + ":BlueWood");
+		GrayWood = new ModBlock(Material.wood).setBlockName("GrayWood").setBlockTextureName(RefStrings.MODID + ":GrayWood");
 		
-		RedStoneBlock = new ModBlock(Material.rock).setBlockName("BlockStoneRed");
-		GreenStone = new ModBlock(Material.rock).setBlockName("GreenStone");
-		YellowStone = new ModBlock(Material.rock).setBlockName("YellowStone");
-		OrangeStone = new ModBlock(Material.rock).setBlockName("OrangeStone");
+		RedStoneBlock = new ModBlock(Material.rock).setBlockName("BlockStoneRed").setBlockTextureName(RefStrings.MODID + ":BlockStoneRed");
+		GreenStone = new ModBlock(Material.rock).setBlockName("GreenStone").setBlockTextureName(RefStrings.MODID + ":GreenStone");
+		YellowStone = new ModBlock(Material.rock).setBlockName("YellowStone").setBlockTextureName(RefStrings.MODID + ":YellowStone");
+		OrangeStone = new ModBlock(Material.rock).setBlockName("OrangeStone").setBlockTextureName(RefStrings.MODID + ":OrangeStone");
 		
 		WoodStates = new Block[]{
 				null,
@@ -144,6 +144,5 @@ public class BlockRegistry {
 		//Item item = Item.getItemFromBlock(block);
 		
 		//Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(RefStrings.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
-		block.setBlockTextureName(RefStrings.MODID + ":" + block.getUnlocalizedName());
 	}
 }
