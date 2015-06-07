@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLCommonHandler"/>
+<fullyQualifiedTypeName name="net.minecraft.block.ITileEntityProvider"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ChunkCoordinates"/>
+</qualifiedTypeNameHistroy>

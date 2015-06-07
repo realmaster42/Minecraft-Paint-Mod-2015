@@ -1,0 +1,54 @@
+[12:19:04] [main/INFO]: Setting user: Player383
+[12:19:06] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:19:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:§e§lPaint Mod 1.7.10 2015
+[12:19:21] [Sound Library Loader/INFO]: Sound engine started
+[12:19:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:19:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:19:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:§e§lPaint Mod 1.7.10 2015
+[12:19:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:19:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:19:41] [Sound Library Loader/INFO]: Sound engine started
+[12:19:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:19:56] [Server thread/INFO]: Generating keypair
+[12:19:56] [Server thread/INFO]: Converting map!
+[12:19:56] [Server thread/INFO]: Scanning folders...
+[12:19:56] [Server thread/INFO]: Total conversion count is 0
+[12:19:58] [Server thread/INFO]: Preparing start region for level 0
+[12:19:59] [Server thread/INFO]: Preparing spawn area: 5%
+[12:20:00] [Server thread/INFO]: Preparing spawn area: 15%
+[12:20:01] [Server thread/INFO]: Preparing spawn area: 21%
+[12:20:02] [Server thread/INFO]: Preparing spawn area: 38%
+[12:20:03] [Server thread/INFO]: Preparing spawn area: 53%
+[12:20:04] [Server thread/INFO]: Preparing spawn area: 59%
+[12:20:05] [Server thread/INFO]: Preparing spawn area: 74%
+[12:20:06] [Server thread/INFO]: Preparing spawn area: 93%
+[12:20:07] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:20:15] [Server thread/INFO]: Stopping server
+[12:20:15] [Server thread/INFO]: Saving players
+[12:20:15] [Server thread/INFO]: Saving worlds
+[12:20:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:20:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:20:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:20:17] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:20:17] [Server thread/INFO]: Generating keypair
+[12:20:17] [Server thread/INFO]: Preparing start region for level 0
+[12:20:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:20:18] [Server thread/INFO]: Player383[local:E:05cd6a9a] logged in with entity id 1410 at (172.5, 69.0, 184.5)
+[12:20:18] [Server thread/INFO]: Player383 joined the game
+[12:20:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 382 ms
+[12:20:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 138 ms
+[12:20:30] [Server thread/INFO]: Player383 has just earned the achievement [Taking Inventory]
+[12:20:30] [Client thread/INFO]: [CHAT] Player383 has just earned the achievement [Taking Inventory]
+[12:20:55] [Server thread/INFO]: Saving and pausing game...
+[12:20:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:20:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:20:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:20:55] [Client thread/INFO]: Stopping!
+[12:20:55] [Server thread/INFO]: Stopping server
+[12:20:55] [Server thread/INFO]: Saving players
+[12:20:56] [Server thread/INFO]: Saving worlds
+[12:20:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:20:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:20:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:20:56] [Client Shutdown Thread/INFO]: Stopping server
+[12:20:56] [Client Shutdown Thread/INFO]: Saving players
