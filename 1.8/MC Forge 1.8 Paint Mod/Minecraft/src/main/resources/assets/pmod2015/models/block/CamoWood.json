@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "pmod2015:blocks/RedStoneBlock"
+        "all": "pmod2015:blocks/CamoWood"
     }
 }

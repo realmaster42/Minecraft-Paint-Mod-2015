@@ -1,5 +1,5 @@
 {
-    "parent": "pmod2015:block/RedStoneBlock",
+    "parent": "pmod2015:block/GreenWood",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

@@ -36,5 +36,9 @@ tile.GrayWood.name=Colored Wood
 tile.BlockStoneRed.name=Colored Stone
 tile.GreenStone.name=Colored Stone
 tile.YellowStone.name=Colored Stone
+tile.OrangeStone.name=Colored Stone
+tile.MagentaStone.name=Colored Stone
+tile.VioletStone.name=Colored Stone
+tile.PurpleStone.name=Colored Stone
 
 itemGroup.tabC=Paint Mod 2015 v0.1.0
